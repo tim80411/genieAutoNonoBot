@@ -1,5 +1,5 @@
 {
-  "name": "ginieAutoNonoBot",
+  "name": "genieAutoNonoBot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,15 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.15.0",
+    "@discordjs/rest": "^0.5.0",
+    "discord-api-types": "^0.33.4",
+    "discord.js": "^13.8.0",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0"
+  }
 }
