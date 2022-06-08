@@ -19,5 +19,5 @@ for (const filename of commandFiles) {
   commands.set(command.data.name, command);
 }
 
-logger.debug({ msg: 'get commands done', commands });
+logger.debug({ msg: 'get commands collection done', commands });
 module.exports = commands;
