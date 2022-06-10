@@ -1,11 +1,13 @@
-# Ginie Auto Nono Bot
+# Genie Auto Nono Bot
 # 說明
 精靈下班時間很累，使用指令，可以開啟自動回話機器人，告訴那些這時候要找精靈的人
 「工作Nono啦」
 
-# 指令(等待實作)
-1. /openNonoBot <時間長度(單位小時])> 開啟指定時長的nono bot
-2. /botResponse <內容> 指定bot要回應的內容
-3. /setBotPassword <密碼> 設定通關密碼
-4. /closeNonoBot 關閉nono bot
-5. /password <密碼> 輸入特定密碼可以暫時關閉nono bot 10分鐘
+開啟機器人的時候可以在監聽的頻道，在有人呼叫 @社群小精靈 的時候，自動開啟thread(子頻道)，並回覆設定好的罐頭訊息
+
+# 指令
+1. /open
+2. /close
+
+# 指令(待完成)
+1. /set 
