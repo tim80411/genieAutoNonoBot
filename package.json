@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "base": "NODE_PATH=. node",
-    "start:dev": "NODE_PATH=. pm2 start index.js",
-    "registerCommand": "npm run base deploy-commands.js | pino-pretty",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "NODE_ENV=dev pm2 start ecosystem.config.js && pm2 logs nonoBot-dev --raw | pino-pretty",
+    "registerCommand": "npm run base deploy-commands.js | pino-pretty"
   },
   "keywords": [],
   "author": "",
